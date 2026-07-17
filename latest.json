@@ -1,9 +1,9 @@
 {
-  "version": "1.1.4",
+  "version": "1.1.5",
   "released": "2026-07-18",
   "channel": "stable",
   "min_version": "1.0.0",
   "changelog": [
-    "Installer: DB fields no longer pre-filled (enter your own database)"
+    "Installer: neutral field placeholders"
   ]
 }
