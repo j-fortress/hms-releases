@@ -1,0 +1,12 @@
+{
+  "version": "1.0.1",
+  "released": "2026-07-17",
+  "channel": "stable",
+  "min_version": "1.0.0",
+  "changelog": [
+    "Recipe ingredient tolerance (flexible vs fixed mode)",
+    "Sales analytics with daily revenue chart",
+    "Faster admin dashboard loading",
+    "Procurement: UOM on purchase orders + fixed PO totals"
+  ]
+}
