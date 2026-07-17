@@ -1,10 +1,9 @@
 {
-  "version": "1.1.3",
+  "version": "1.1.4",
   "released": "2026-07-18",
   "channel": "stable",
   "min_version": "1.0.0",
   "changelog": [
-    "Installer creates the database automatically",
-    "Self-service setup: choose your own database name"
+    "Installer: DB fields no longer pre-filled (enter your own database)"
   ]
 }
