@@ -1,14 +1,11 @@
 {
-  "version": "1.1.0",
-  "released": "2026-07-17",
+  "version": "1.1.2",
+  "released": "2026-07-18",
   "channel": "stable",
   "min_version": "1.0.0",
   "changelog": [
-    "First-run installer / setup wizard",
-    "Self-update: in-app update banner + one-click upgrade",
-    "Kitchen Display System (KDS) with live WebSocket updates",
-    "Recipe ingredient tolerance (flexible/fixed modes)",
-    "Sales analytics dashboard",
-    "Procurement: UOM on purchase orders, supplier products"
+    "Self-service database setup in the installer",
+    "App boots without a database and the wizard configures it",
+    "Config persists across updates"
   ]
 }
