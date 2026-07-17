@@ -1,9 +1,10 @@
 {
-  "version": "1.1.7",
+  "version": "1.1.8",
   "released": "2026-07-18",
   "channel": "stable",
   "min_version": "1.0.0",
   "changelog": [
-    "POS: Stations moved into the Configuration menu"
+    "Slick terminal-style update progress",
+    "Live update log + progress bar"
   ]
 }
