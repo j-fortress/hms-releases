@@ -1,10 +1,14 @@
 {
-  "version": "1.1.8",
+  "version": "1.2.0",
   "released": "2026-07-18",
   "channel": "stable",
   "min_version": "1.0.0",
+  "mandatory": false,
   "changelog": [
-    "Slick terminal-style update progress",
-    "Live update log + progress bar"
+    "Procurement: UOM on requisitions, carried to PO",
+    "Goods receipt now flags variances and requires a reason to validate",
+    "Smart buttons to jump between Requisition, PO, GRN and Bill",
+    "Send purchase orders to suppliers",
+    "Optional vs required updates, with remind-me-later"
   ]
 }
