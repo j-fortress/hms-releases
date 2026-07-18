@@ -1,14 +1,13 @@
 {
-  "version": "1.2.0",
+  "version": "1.2.1",
   "released": "2026-07-18",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "Procurement: UOM on requisitions, carried to PO",
-    "Goods receipt now flags variances and requires a reason to validate",
-    "Smart buttons to jump between Requisition, PO, GRN and Bill",
-    "Send purchase orders to suppliers",
-    "Optional vs required updates, with remind-me-later"
+    "Vendor bills now pull the received (GRN) quantities and prices",
+    "VAT carries automatically from PO through goods receipt to the bill",
+    "Record the actual received price on goods receipt",
+    "UI polish: dark-mode buttons, PO actions on top"
   ]
 }
