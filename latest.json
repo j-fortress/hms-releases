@@ -1,12 +1,14 @@
 {
-  "version": "1.2.2",
+  "version": "1.2.3",
   "released": "2026-07-19",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "Refreshed the entire interface with crisp vector icons for a cleaner, more professional look",
-    "New searchable icon picker when creating stations and station types",
-    "Consistent, sharp icons in both light and dark mode"
+    "Redesigned purchase orders: one document from request through to order, with a clear status ribbon and step-by-step action buttons",
+    "Vendor order pad \u2014 pick a supplier and their products load in automatically with suggested reorder quantities you can adjust or remove",
+    "Receiving and billing progress now shown separately from the order status, so a part-delivered order reads correctly at a glance",
+    "Fixed Send to Supplier, which previously did nothing once an order was approved",
+    "Purchase orders under a configurable amount can now skip approval"
   ]
 }
