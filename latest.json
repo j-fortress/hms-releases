@@ -1,13 +1,12 @@
 {
-  "version": "1.2.1",
-  "released": "2026-07-18",
+  "version": "1.2.2",
+  "released": "2026-07-19",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "Vendor bills now pull the received (GRN) quantities and prices",
-    "VAT carries automatically from PO through goods receipt to the bill",
-    "Record the actual received price on goods receipt",
-    "UI polish: dark-mode buttons, PO actions on top"
+    "Refreshed the entire interface with crisp vector icons for a cleaner, more professional look",
+    "New searchable icon picker when creating stations and station types",
+    "Consistent, sharp icons in both light and dark mode"
   ]
 }
