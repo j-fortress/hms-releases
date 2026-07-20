@@ -1,13 +1,11 @@
 {
-  "version": "1.2.6",
+  "version": "1.2.7",
   "released": "2026-07-20",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "Rebuilt stock take: guided count sheet with live progress, searchable products and instant variance highlighting",
-    "Counts now separate real shrinkage from stock that was sold or received while you were counting",
-    "New stock take reports \u2014 shrinkage and overage value, count accuracy, variance trend and the products worth investigating",
-    "Only one count can run per warehouse at a time, and every count now has its own reference number"
+    "Stock take now explains how it works \u2014 hover the info icon for the variance rule and a worked example",
+    "A short guide on the New Count screen explains why the 'Counted at' time matters"
   ]
 }
