@@ -1,14 +1,14 @@
 {
-  "version": "1.2.3",
-  "released": "2026-07-19",
+  "version": "1.2.4",
+  "released": "2026-07-20",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "Redesigned purchase orders: one document from request through to order, with a clear status ribbon and step-by-step action buttons",
-    "Vendor order pad \u2014 pick a supplier and their products load in automatically with suggested reorder quantities you can adjust or remove",
-    "Receiving and billing progress now shown separately from the order status, so a part-delivered order reads correctly at a glance",
-    "Fixed Send to Supplier, which previously did nothing once an order was approved",
-    "Purchase orders under a configurable amount can now skip approval"
+    "New Accounting menu grouping Journal Entries, Vendor Bills and Customer Invoices",
+    "Full customer invoicing \u2014 invoice numbers, references, product lines, VAT and payment terms, posted straight to the ledger",
+    "Receive Goods and Create Bill now open as proper pop-up dialogs, and every pop-up animates smoothly",
+    "Approvers are emailed when a purchase order needs approval, and suppliers are emailed the order when you press Send to Supplier",
+    "Cancelling an already-approved purchase order now requires approver rights"
   ]
 }
