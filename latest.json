@@ -1,14 +1,11 @@
 {
-  "version": "1.2.4",
+  "version": "1.2.5",
   "released": "2026-07-20",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "New Accounting menu grouping Journal Entries, Vendor Bills and Customer Invoices",
-    "Full customer invoicing \u2014 invoice numbers, references, product lines, VAT and payment terms, posted straight to the ledger",
-    "Receive Goods and Create Bill now open as proper pop-up dialogs, and every pop-up animates smoothly",
-    "Approvers are emailed when a purchase order needs approval, and suppliers are emailed the order when you press Send to Supplier",
-    "Cancelling an already-approved purchase order now requires approver rights"
+    "Fixed the vendor bill screen linking to the wrong journal entry \u2014 bills now open their own GL entry, and unposted drafts correctly show none",
+    "Resetting a bill to draft now reverses only that bill's own journal entry"
   ]
 }
