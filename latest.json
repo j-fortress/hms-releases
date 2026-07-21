@@ -1,11 +1,13 @@
 {
-  "version": "1.2.7",
-  "released": "2026-07-20",
+  "version": "1.2.8",
+  "released": "2026-07-21",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "Stock take now explains how it works \u2014 hover the info icon for the variance rule and a worked example",
-    "A short guide on the New Count screen explains why the 'Counted at' time matters"
+    "Fixed a serious receiving bug where a goods receipt could be confirmed with no items on it and no stock received",
+    "Purchase order tax now loads exactly as saved \u2014 zero-rated orders no longer display VAT 16% or inflate their totals",
+    "New purchase order lines default to Zero Rated",
+    "Hover the lock or warning beside a price to see the contract price and the difference"
   ]
 }
