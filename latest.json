@@ -1,13 +1,13 @@
 {
-  "version": "1.3.0",
+  "version": "1.3.1",
   "released": "2026-07-22",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "Receiving is simpler \u2014 record what actually arrived and see the variance against the order at a glance",
-    "Variance is shown as a single figure that can be over or short, instead of separate accepted and rejected columns",
-    "Over-deliveries can now be recorded instead of being capped at the ordered quantity",
-    "A reason can be given for any variance or price change, not only for rejections"
+    "Fixed the linked requisition on a purchase order opening a Not Found page \u2014 requisitions now have a full detail view",
+    "Fixed stock movement figures: transfers between your own warehouses no longer count as stock leaving the business",
+    "Fixed transfers being recorded twice in the movement report",
+    "The running balance now reflects real stock on hand for the selected product and warehouse"
   ]
 }
