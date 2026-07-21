@@ -1,13 +1,11 @@
 {
-  "version": "1.2.8",
-  "released": "2026-07-21",
+  "version": "1.2.9",
+  "released": "2026-07-22",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "Fixed a serious receiving bug where a goods receipt could be confirmed with no items on it and no stock received",
-    "Purchase order tax now loads exactly as saved \u2014 zero-rated orders no longer display VAT 16% or inflate their totals",
-    "New purchase order lines default to Zero Rated",
-    "Hover the lock or warning beside a price to see the contract price and the difference"
+    "Fixed goods receiving being blocked with a 'no quantities were received' message on valid receipts",
+    "The receive column is now simply 'Reason', since it also covers short deliveries and damage"
   ]
 }
