@@ -1,10 +1,10 @@
 {
-  "version": "1.3.4",
+  "version": "1.3.5",
   "released": "2026-07-23",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "Inventory Valuation report: filter by date (value stock as it stood on any past day), warehouse, category, station and product\nAdded by-warehouse and by-category value breakdowns and CSV export"
+    "Receiving a PO with mismatched units now shows a clear message naming the product instead of a 500 error\nFixed a 500 on the Accounting Default Accounts page caused by malformed saved settings"
   ]
 }
