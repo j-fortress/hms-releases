@@ -1,10 +1,10 @@
 {
-  "version": "1.3.9",
+  "version": "1.4.0",
   "released": "2026-07-23",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "Accounts Payable Aging report is now available under Procurement \u2192 Reporting"
+    "AP Aging: click a supplier to drill into the bills that make up its balance\nFixed supplier outstanding balance counting draft bills, so it now matches the AP Aging report and the ledger"
   ]
 }
