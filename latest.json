@@ -1,10 +1,10 @@
 {
-  "version": "1.3.7",
+  "version": "1.3.8",
   "released": "2026-07-23",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "Fixed warehouse transfers not delivering stock to the destination (stock left the source but never arrived)\nApproved transfers now complete and reach the Transferred step instead of stalling\nRepaired stock quantities for transfers affected by the issue"
+    "Inventory Valuation amounts are now drill-downs: click a warehouse or category total to see the products behind it, and click any product to open its stock movement history"
   ]
 }
