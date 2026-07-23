@@ -1,10 +1,10 @@
 {
-  "version": "1.4.2",
+  "version": "1.4.3",
   "released": "2026-07-23",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "Inventory in the ledger now matches the Inventory Valuation report, split by Food/Beverage/Alcohol\nAdded a Reconcile Inventory button on the Balance Sheet to true up the ledger to physical stock at any time\nReceipts and sales/kitchen consumption now post to consistent inventory accounts at real cost"
+    "Documents now show their exact ledger postings (the double entry the system made) and a Posted/Not Posted badge \u2014 starting with Supplier Invoices and GRNs"
   ]
 }
