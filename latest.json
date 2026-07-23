@@ -1,10 +1,10 @@
 {
-  "version": "1.4.9",
+  "version": "1.5.0",
   "released": "2026-07-23",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "Procurement Spending Analysis now shows real spend by supplier (value actually received), fixing inflated/incorrect figures and the period filter"
+    "Return to Supplier: return GRV items to the supplier from the GRV or the supplier invoice \u2014 reduces stock and either the supplier balance (if invoiced) or the purchase accrual"
   ]
 }
