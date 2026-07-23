@@ -1,10 +1,10 @@
 {
-  "version": "1.4.4",
+  "version": "1.4.5",
   "released": "2026-07-23",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "Added AP & AR subsidiary ledgers: each supplier/customer now has a statement of every bill, invoice, payment and receipt with a running balance, tied to the ledger by audit number\nCustomer Invoices now show their ledger postings and posted status too"
+    "Added Bank Reconciliation under Accounting: tick off statement transactions and reconcile the ledger to the bank, with a reconciliation history report\nSupplier pages now show a full Statement \u2014 every bill and payment with a running balance, linked to the ledger by audit number"
   ]
 }
