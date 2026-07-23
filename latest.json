@@ -1,10 +1,10 @@
 {
-  "version": "1.4.8",
+  "version": "1.4.9",
   "released": "2026-07-23",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "POS sales now show their full ledger postings and posted status in the admin order view"
+    "Procurement Spending Analysis now shows real spend by supplier (value actually received), fixing inflated/incorrect figures and the period filter"
   ]
 }
