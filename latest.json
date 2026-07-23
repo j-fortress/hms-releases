@@ -1,10 +1,10 @@
 {
-  "version": "1.3.3",
+  "version": "1.3.4",
   "released": "2026-07-23",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "Packs with a fixed weight (e.g. a 2kg bale) now convert to kg \u2014 define them in the Weight category\nCross-category unit errors now explain how to fix a weighted pack instead of dead-ending"
+    "Inventory Valuation report: filter by date (value stock as it stood on any past day), warehouse, category, station and product\nAdded by-warehouse and by-category value breakdowns and CSV export"
   ]
 }
