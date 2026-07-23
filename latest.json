@@ -1,10 +1,10 @@
 {
-  "version": "1.6.2",
+  "version": "1.6.3",
   "released": "2026-07-24",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "Chart of Accounts replaced with the standard set: one account per account type at its exact code (1100 Bank \u2026 5500 Temporary), grouped under the five account classes, with existing balances merged in and preinstalled on fresh installs"
+    "Chart of Accounts now lists each account once, collapsible under the five account classes; clicking an account opens an animated popup to edit it, and Add Account uses the same popup"
   ]
 }
