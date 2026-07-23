@@ -1,10 +1,10 @@
 {
-  "version": "1.4.5",
+  "version": "1.4.6",
   "released": "2026-07-23",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "Added Bank Reconciliation under Accounting: tick off statement transactions and reconcile the ledger to the bank, with a reconciliation history report\nSupplier pages now show a full Statement \u2014 every bill and payment with a running balance, linked to the ledger by audit number"
+    "Added an AP/AR Reconciliation window that proves supplier and customer balances agree with the control accounts in the ledger"
   ]
 }
