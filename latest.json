@@ -1,10 +1,10 @@
 {
-  "version": "1.3.2",
-  "released": "2026-07-22",
+  "version": "1.3.3",
+  "released": "2026-07-23",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "Dropdowns no longer clipped inside cards, tables and modals (project-wide)\nNumber fields select the 0 on focus so typing replaces it; mouse wheel no longer edits quantities\nFixed frozen timestamps that gave every payment, stock move and activity log the same date\nRecovered real dates for 53 payments and 70 stock moves from their source documents\nUnits of Measure rebuilt on a per-unit ratio: conversions are derived, exact, and cannot contradict each other\nEditing a unit now takes effect immediately; cross-category conversions are refused instead of silently wrong\nGoods receipt refuses a purchase/stock unit pair it cannot convert, instead of corrupting stock\nProduct form explains the stock/purchase unit pairing and warns when a stock unit is missing"
+    "Packs with a fixed weight (e.g. a 2kg bale) now convert to kg \u2014 define them in the Weight category\nCross-category unit errors now explain how to fix a weighted pack instead of dead-ending"
   ]
 }
