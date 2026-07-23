@@ -1,10 +1,10 @@
 {
-  "version": "1.4.0",
+  "version": "1.4.1",
   "released": "2026-07-23",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "AP Aging: click a supplier to drill into the bills that make up its balance\nFixed supplier outstanding balance counting draft bills, so it now matches the AP Aging report and the ledger"
+    "Trial Balance now shows one balance per account on the correct debit or credit side, with both columns proving equal\nEvery journal entry is tagged with an audit number and the report flags any entry whose debits and credits don't balance"
   ]
 }
