@@ -1,10 +1,10 @@
 {
-  "version": "1.6.1",
+  "version": "1.6.2",
   "released": "2026-07-24",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "Full Chart of Accounts revamp: every account renumbered into its standard type range, with the posting engine now resolving control accounts by type (not hardcoded codes). Balances, history and all reconciliations preserved."
+    "Chart of Accounts replaced with the standard set: one account per account type at its exact code (1100 Bank \u2026 5500 Temporary), grouped under the five account classes, with existing balances merged in and preinstalled on fresh installs"
   ]
 }
