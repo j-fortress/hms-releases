@@ -1,10 +1,10 @@
 {
-  "version": "1.5.0",
+  "version": "1.5.1",
   "released": "2026-07-23",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "Return to Supplier: return GRV items to the supplier from the GRV or the supplier invoice \u2014 reduces stock and either the supplier balance (if invoiced) or the purchase accrual"
+    "Suppliers and customers now capture bank account details on creation\nProcurement spending (report + dashboard) now reflects money actually paid to suppliers (paid bills), per vendor and as a single dashboard total"
   ]
 }
