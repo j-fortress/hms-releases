@@ -1,10 +1,10 @@
 {
-  "version": "1.4.3",
+  "version": "1.4.4",
   "released": "2026-07-23",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "Documents now show their exact ledger postings (the double entry the system made) and a Posted/Not Posted badge \u2014 starting with Supplier Invoices and GRNs"
+    "Added AP & AR subsidiary ledgers: each supplier/customer now has a statement of every bill, invoice, payment and receipt with a running balance, tied to the ledger by audit number\nCustomer Invoices now show their ledger postings and posted status too"
   ]
 }
