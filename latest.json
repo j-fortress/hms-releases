@@ -1,10 +1,10 @@
 {
-  "version": "1.5.3",
-  "released": "2026-07-23",
+  "version": "1.6.0",
+  "released": "2026-07-24",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "Bank details can now be edited on suppliers and customers (not just added at creation)\nSupplier statement payments now show their audit number and reference, linked to the journal entry"
+    "Chart of Accounts now organised by standard account types (Bank, Cash, Receivable, Stock, Payable, Tax, COGS, \u2026) in a collapsible list with code ranges; missing standard accounts seeded"
   ]
 }
