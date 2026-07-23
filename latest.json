@@ -1,10 +1,10 @@
 {
-  "version": "1.5.2",
+  "version": "1.5.3",
   "released": "2026-07-23",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "Top Suppliers This Month now ranks by ordering activity (POs and order value), not payments"
+    "Bank details can now be edited on suppliers and customers (not just added at creation)\nSupplier statement payments now show their audit number and reference, linked to the journal entry"
   ]
 }
