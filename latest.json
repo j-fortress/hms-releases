@@ -1,10 +1,10 @@
 {
-  "version": "1.4.1",
+  "version": "1.4.2",
   "released": "2026-07-23",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "Trial Balance now shows one balance per account on the correct debit or credit side, with both columns proving equal\nEvery journal entry is tagged with an audit number and the report flags any entry whose debits and credits don't balance"
+    "Inventory in the ledger now matches the Inventory Valuation report, split by Food/Beverage/Alcohol\nAdded a Reconcile Inventory button on the Balance Sheet to true up the ledger to physical stock at any time\nReceipts and sales/kitchen consumption now post to consistent inventory accounts at real cost"
   ]
 }
