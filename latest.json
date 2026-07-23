@@ -1,10 +1,10 @@
 {
-  "version": "1.6.0",
+  "version": "1.6.1",
   "released": "2026-07-24",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "Chart of Accounts now organised by standard account types (Bank, Cash, Receivable, Stock, Payable, Tax, COGS, \u2026) in a collapsible list with code ranges; missing standard accounts seeded"
+    "Full Chart of Accounts revamp: every account renumbered into its standard type range, with the posting engine now resolving control accounts by type (not hardcoded codes). Balances, history and all reconciliations preserved."
   ]
 }
