@@ -1,10 +1,10 @@
 {
-  "version": "1.4.7",
+  "version": "1.4.8",
   "released": "2026-07-23",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "Stock adjustments now post to the general ledger (inventory vs variance) and have a detail page showing their lines, posted status and double entry"
+    "POS sales now show their full ledger postings and posted status in the admin order view"
   ]
 }
