@@ -1,14 +1,11 @@
 {
-  "version": "1.7.0",
+  "version": "1.7.1",
   "released": "2026-07-29",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "Durable notification system (live feed) across POS, KDS, and customer tent-card page",
-    "Cash & card reconciliation with GL postings and CSV import",
-    "M-Pesa STK Push and statement reconciliation",
-    "Shared-terminal waiter table locking with PIN-based identity switching",
-    "New POS Terminal User role; fixed a privilege-escalation bug in Waiter role backend access"
+    "Fixed a missing dependency (httpx) that broke the API container on the v1.7.0 update \u2014 auto-update now works correctly",
+    "Admin backend: fixed grid layouts that never actually collapsed on tablet/phone widths"
   ]
 }
