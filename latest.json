@@ -1,11 +1,10 @@
 {
-  "version": "1.7.1",
+  "version": "1.7.2",
   "released": "2026-07-29",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "Fixed a missing dependency (httpx) that broke the API container on the v1.7.0 update \u2014 auto-update now works correctly",
-    "Admin backend: fixed grid layouts that never actually collapsed on tablet/phone widths"
+    "POS terminal is now usable on phones and phablets: order entry, cashier, and the floor plan reflow instead of breaking; desktop/tablet view unchanged"
   ]
 }
