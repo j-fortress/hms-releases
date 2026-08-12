@@ -1,10 +1,10 @@
 {
-  "version": "1.7.2",
-  "released": "2026-07-29",
+  "version": "1.7.3",
+  "released": "2026-08-12",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "POS terminal is now usable on phones and phablets: order entry, cashier, and the floor plan reflow instead of breaking; desktop/tablet view unchanged"
+    "Fixed POS station tiles not resizing on phones, and a top bar overlap between the station name and Switch User button"
   ]
 }
