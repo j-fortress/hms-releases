@@ -1,10 +1,10 @@
 {
-  "version": "1.7.3",
+  "version": "1.7.4",
   "released": "2026-08-12",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "Fixed POS station tiles not resizing on phones, and a top bar overlap between the station name and Switch User button"
+    "Admin tables now scroll cleanly on tablet/phone widths instead of relying on a generic fallback"
   ]
 }
