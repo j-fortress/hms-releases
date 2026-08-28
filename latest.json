@@ -1,13 +1,12 @@
 {
-  "version": "1.8.0",
+  "version": "1.8.1",
   "released": "2026-08-28",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "M-Pesa outbound payments: pay suppliers/staff via B2C/B2B/Tax with maker-checker approval and auto GL posting",
-    "Gift cards: fixed a 500 on issue, fraud-proof codes, printable/emailable PDF",
-    "Customer reports: search, date filter, CSV export",
-    "HR & Payroll: 2026 SHIF/NSSF rates, fixed PAYE over-taxation, fixed dead shift assignment and 3 Quick Hire crashes"
+    "Fixed split-payment crash showing [object Object] on the POS payment screen",
+    "Fixed commission rules \u2014 the whole create/edit form never worked, now supports multi-select products/categories/staff",
+    "Fixed Quick Hire not wiring the employee's station/role for POS login"
   ]
 }
