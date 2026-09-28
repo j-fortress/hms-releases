@@ -1,11 +1,10 @@
 {
-  "version": "1.8.2",
-  "released": "2026-09-28",
+  "version": "1.8.3",
+  "released": "2026-09-29",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "Users: made the Active/Inactive toggle look like a real button instead of a static tag",
-    "Fixed a session-kill gap on user delete"
+    "Fixed the release pipeline itself - releases no longer depend on GitHub Actions"
   ]
 }
