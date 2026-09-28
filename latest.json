@@ -1,12 +1,11 @@
 {
-  "version": "1.8.1",
-  "released": "2026-08-28",
+  "version": "1.8.2",
+  "released": "2026-09-28",
   "channel": "stable",
   "min_version": "1.0.0",
   "mandatory": false,
   "changelog": [
-    "Fixed split-payment crash showing [object Object] on the POS payment screen",
-    "Fixed commission rules \u2014 the whole create/edit form never worked, now supports multi-select products/categories/staff",
-    "Fixed Quick Hire not wiring the employee's station/role for POS login"
+    "Users: made the Active/Inactive toggle look like a real button instead of a static tag",
+    "Fixed a session-kill gap on user delete"
   ]
 }
